@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="section">
+      <!-- Navbar -->
+      <div class="Navbar">
+        <a href="" class="logo"> CodeSniff </a>
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="" class="nav_link">Home</a>
+            <a href="" class="nav_link">Services</a>
+            <a href="" class="nav_link">About</a>
+            <a href="" class="nav_link">Contact</a>
+          </li>
+        </ul>
+        <i class="btn"></i>
+      </div>
+
+      <!-- Main -->
+
+      <div class="container" id="box">
+        <h3>Weather</h3>
+
+        <div class="search_bar">
+          <input
+            class="city_name"
+            type="search"
+            placeholder="Search your city"
+            spellcheck="false"
+          />
+          <button class="search"><i class="ri-search-line"></i></button>
+        </div>
+        <div class="error">
+          <p>Invalid city name</p>
+        </div>
+        <div class="weather_info">
+          <img class="weather_icon" src="images/clear.png" alt="" />
+          <h1 class="temp">21°c</h1>
+          <h3 class="name">New York</h3>
+          <div class="details">
+            <div class="col">
+              <img src="images/humidity.png" alt="" />
+              <div>
+                <p class="humidity">50%</p>
+                <p class="para">Humidity</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <img src="images/wind.png" alt="" />
+              <div>
+                <p class="wind">15km/h</p>
+                <p class="para">Wind speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
